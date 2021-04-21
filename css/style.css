@@ -1,0 +1,168 @@
+body{
+	background-image: url(../imagens/fundo.jpg);
+	background-size: 100%;
+	background-attachment: fixed;
+}
+/*AQUI COMEÇA O CSS DO HEADER E NAV*/
+.imgNav{
+	width: 100%;
+	height: 150px;	
+}
+.tituloPrincipal{
+	margin: 20px;
+	font-size: 35px;
+	font-weight: bold;
+	padding: 10px 10px 0 10px;
+	color: white;
+}
+.subTituloPrincipal{
+	margin: 20px;
+	font-size: 30px;
+	font-weight: bold;
+	padding: 0 10px 10px 10px;
+	position: absolute;
+	top: 195px;
+	color: white;
+}
+.navegacao{
+	margin: 35px;
+	position: absolute;
+	top: 20px;
+	right: 500px;
+}
+.lista li{
+	padding: 0 0 0 0;
+	display: inline;
+	margin: 0 0 0 50px;
+}
+.listNav:hover{
+	text-decoration: underline;
+}
+.lista a{
+	font-size: 28px;
+	text-decoration: none;
+	color: yellow;
+	font-family: Jazz LET, fantasy;
+}
+a:hover{
+	color: #de0404;
+	font-size: 38px;
+	font-weight: bold;
+	font-family:Snell Roundhand, cursive;
+}
+/*--AQUI COMEÇA O CSS DO MAIN, SECTION E TABELAS*/
+.apresentacao{
+	color: white;
+	margin:20px;
+	padding-top: 50px;
+	text-align: justify;
+	font-size: 23px;
+	position: absolute;
+	right: 844px;
+	font-family: Impact, fantasy;
+}
+.avatar{
+	width: 816px;
+	height: 400px;
+	position: relative;
+	left: 700px;
+	top: -87px;
+}
+#secao2{
+	padding-top: 100px;
+}
+.subTitulo{
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	margin: 20px 0 20px 15px;
+	text-align: center;
+}
+.cursos{
+	color: white;
+	margin: 10px 0 0 15px;
+	font-family: Stencil Std, fantasy;
+	font-size: 20px;
+	text-align: center;
+}
+table, tr, td, th{
+	width: 580px;
+	border: 3px solid white;
+	margin-left: 490px;
+	color: white;
+	padding: 5px;	
+}
+th{
+	font-size: 25px;
+	font-family: Stencil Std, fantasy;
+}
+td{
+	font-size: 20px;
+	font-family: Impact, fantasy;
+	text-align: center;
+}
+#subTitulo2{
+	padding-top: 50px;
+}
+.listaCursos > li{
+	padding: 7px;
+	text-align:center;
+}
+.cursos:before{
+	content: "★ ";
+}
+
+/*AQUI COMEÇA A ESTILIZAÇÃO DOS PROJETOS*/
+#secao3{
+	padding-top: 150px; 
+}
+.texto{
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	padding-bottom:75px;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+}
+.tituloProjeto{
+	color: white;
+	font-size: 25px;
+	padding: 20px;
+	padding-top: 40px;
+}
+.iframes{
+	position: relative;
+	left: 140px;
+	width: 80%;
+	height: 500px;
+}
+.divGitHub > p{
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	padding-top:75px;
+	padding-bottom: 75px;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+/*AQUI COMEÇA A ESTILIZAÇÃO DO FOOTER*/
+#footer{
+	padding-top: 100px;
+	background-color: #1b3c47; 
+}
+.contatos{
+	color: white;
+	margin: 10px 0 0 15px;
+	font-family: Stencil Std, fantasy;
+	font-size: 20px;
+	padding: 10px;
+	text-align: justify;
+}
+.divDireitos > p{
+	text-align: center;
+	padding: 30px 0 30px 0;
+}
+.pDireitos:before{
+	content: "© "
+}
+
+/*DEPOIS DEIXAR ELE RESPONSIVO PARA FINALIZAR*/
